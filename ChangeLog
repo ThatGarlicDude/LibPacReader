@@ -1,0 +1,5 @@
+2025-02-05 GarlicDude <https://github.com/ThatGarlicDude>
+
+	Libpacreader Version 0.0.4-alpha
+	* Removed Automake and Autoconf functionality.
+	* Replaced it with CMake. (Thanks, @d3xt3r.bsky.social)
