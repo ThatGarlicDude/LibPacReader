@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "romSet.h"
 #include "romVersion.h"
 
 int main() {

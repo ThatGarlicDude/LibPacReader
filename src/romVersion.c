@@ -1,3 +1,6 @@
+/*
+Pretty much self explanitory.
+*/
 typedef enum ROM_VERSION {
 	US,	// Pac-Man
 	JP,	// Puck-Man
