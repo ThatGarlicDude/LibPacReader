@@ -6,4 +6,7 @@
 	#include "romVersion.h"
 
 	RomSet readRomSet(DIR* romSetDir);
+
+	RomSet readRomSetFromPath(char* romSetFilePath[]);
+
 #endif
