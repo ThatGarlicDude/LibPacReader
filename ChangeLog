@@ -1,3 +1,8 @@
+2025-02-16 GarlicDude <https://github.com/ThatGarlicDude>
+
+	Libpacreader Version 0.0.12-alpha
+	* Updated the way the program reads and accesses ROM sets.
+
 2025-02-05 GarlicDude <https://github.com/ThatGarlicDude>
 
 	Libpacreader Version 0.0.5-alpha

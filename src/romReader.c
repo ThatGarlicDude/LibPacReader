@@ -4,7 +4,7 @@
 #include "romVersion.h"
 
 // Reads and lays out the structure of the ROM set.
-RomSet readRomSet(DIR* romSetDir) {
+RomSet readRomSet(DIR* romSetDir, struct dirent* romSetEntry) {
 	RomSet romSet;
 	return romSet;
 }
@@ -20,6 +20,6 @@ RomSet readRomSetFromPath(char* romSetFilePath[]) {
 	} else {
 		printf("%s is a directory.\n", *romSetFilePath);
 	}
-	romSet = readRomSet(directory);
+	romSet = readRomSet(directory, directoryEntry);
 	return romSet;
 }
