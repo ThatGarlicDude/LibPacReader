@@ -1,5 +1,10 @@
 2025-02-16 GarlicDude <https://github.com/ThatGarlicDude>
 
+        Libpacreader Version 0.0.13-alpha
+        * Added the RomSorter.c and .h files.
+
+2025-02-16 GarlicDude <https://github.com/ThatGarlicDude>
+
 	Libpacreader Version 0.0.12-alpha
 	* Updated the way the program reads and accesses ROM sets.
 

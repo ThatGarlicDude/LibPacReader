@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.12)
-project(libpacreader VERSION 0.0.12)
+project(libpacreader VERSION 0.0.13)
 
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_C_STANDARD_REQUIRED ON)

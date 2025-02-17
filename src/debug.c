@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "romReader.h"
 #include "romSet.h"
+#include "romSorter.h"
 #include "romVersion.h"
 
 int main(int argc, char *argv[]) {
