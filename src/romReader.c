@@ -1,25 +1,31 @@
 #include <stdio.h>
 #include <dirent.h>
 #include "romSet.h"
+#include "romSorter.h"
 #include "romVersion.h"
 
-// Reads and lays out the structure of the ROM set.
-RomSet readRomSet(DIR* romSetDir, struct dirent* romSetEntry) {
-	RomSet romSet;
-	return romSet;
+// Simply opens up the directory to see if it's valid.
+char isRomSetDirectoryValid(const char romSetFilePath[]) {
+	DIR* directory = opendir(romSetFilePath);
+	char result;
+	// Is it valid?
+	if (directory != NULL) {
+		result++; // Increment it to false.
+	}
+	closedir(directory);
+	return result;
 }
 
-// Ditto, but uses a filepath instead, just to make things easier.
-RomSet readRomSetFromPath(char* romSetFilePath[]) {
+// Reads and lays out the structure of the ROM set through a file path.
+RomSet readRomSet(const char romSetFilePath[]) {
 	RomSet romSet;
-	struct dirent* directoryEntry;
-	DIR* directory = opendir(*romSetFilePath);
-	if (directory == NULL) {
-		printf("%s is not a directory.\n", *romSetFilePath);
-		return romSet; // Just return an empty ROM set for now.
+	// Check if the directory is valid or not.
+	if (isRomSetDirectoryValid(romSetFilePath)) {
+		printf("%s is a directory.\n", romSetFilePath);
 	} else {
-		printf("%s is a directory.\n", *romSetFilePath);
+		printf("%s is not a directory.\n", romSetFilePath);
+		return romSet; // Just return an empty ROM set for now.
 	}
-	romSet = readRomSet(directory, directoryEntry);
+	FILE* files = getFiles(romSetFilePath);
 	return romSet;
 }

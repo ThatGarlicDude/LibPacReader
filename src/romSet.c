@@ -12,4 +12,3 @@ typedef struct {
 	FILE** COLOR_ROMS;
 	FILE** AUDIO_ROMS;
 } RomSet;
-
