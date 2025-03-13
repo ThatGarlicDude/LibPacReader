@@ -19,6 +19,7 @@ char isRomSetDirectoryValid(const char romSetFilePath[]) {
 // Reads and lays out the structure of the ROM set through a file path.
 RomSet readRomSet(const char romSetFilePath[]) {
 	RomSet romSet;
+	char* buffer;
 	// Check if the directory is valid or not.
 	if (isRomSetDirectoryValid(romSetFilePath)) {
 		printf("%s is a directory.\n", romSetFilePath);

@@ -1,3 +1,10 @@
+2025-03-12 GarlicDude <https://github.com/ThatGarlicDude>
+	Libpacreader Version 0.0.16-alpha
+	* Added romPaths, a dynamic array containing strings that are
+	filepaths.
+	* romPaths can add new filePaths, and can free the array itself.
+	* Fixed a few typos in the comments.
+
 2025-03-08 GarlicDude <https://github.com/ThatGarlicDude>
 	Libpacreader Version 0.0.15-alpha
 	* Changed the include directory to headers.

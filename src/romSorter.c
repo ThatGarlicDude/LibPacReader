@@ -15,7 +15,7 @@ refer to where the ROMs are at in their respective PCBs. The only exception
 is the Ms. Pac-Man ROM set, which contains the "boot" ROMs that have no
 file extension. But nonetheless, we can use the file extensions for the
 Pac-Man and Puck-Man ROM sets to our advantage when it comes to sorting them
-alphabetically and numerically and laying  out the RomSet struct.
+alphabetically and numerically and laying out the RomSet struct.
 */
 const char* getFileExtension(const char fileName[]) {
 	const char* period = strchr(fileName, '.');
