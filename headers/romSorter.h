@@ -3,11 +3,12 @@
 
 	#include <dirent.h>
 	#include <stdio.h>
+	#include "romPaths.h"
 	#include "romSet.h"
-
-	void sortRomSet(DIR* directory, RomSet* romSet);
 
 	const char* getFileExtension(const char fileName[]);
 
-	FILE* getFiles(const char fileName[]);
+	RomPaths getFilePaths(const char fileName[]);
+
+	void sortRomSet(RomPaths* romPathPointer, RomSet* romSetPointer);
 #endif

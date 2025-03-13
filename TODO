@@ -1,0 +1,4 @@
+TODO:
+
+	Find a better way to compare strings. Just use strcmp instead of a built-in function.
+	Do lots of cleaning.
