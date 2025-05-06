@@ -1,3 +1,18 @@
+2025-05-05 GarlicDude <https://github.com/ThatGarlicDude>
+
+	LibPacReader Version 1.0.0
+	* Libpacreader is now stylized as LibPacReader.
+	* LibPacReader now uses LibPacSorter as its submodule.
+	* LibPacReader now longer needs to be installed to /usr/local/lib anymore, as it is now treated as a submodule.
+	* LibPacReader can now be installed as a library instead of an executable.
+	* Removed most functions, as they are not needed right now.
+	* Removed romPaths.c and .h, as LibPacSet already has a struct similar to this.
+	* Removed romSet.c and .h, as they are no longer needed.
+	* Removed romSorter.c and .h, as LibPacSorter already has that functionality.
+	* Removed romVersion.c and .h, as they aren't needed for the moment.
+	* LibPacSet can now ignore the build directory and its contents.
+	* Deleted NEWS and TODO, as they're no longer needed.
+
 2025-03-12 GarlicDude <https://github.com/ThatGarlicDude>
 	Libpacreader Version 0.0.16-alpha
 	* Added romPaths, a dynamic array containing strings that are

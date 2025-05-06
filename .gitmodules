@@ -1,0 +1,3 @@
+[submodule "submodules/LibPacSorter"]
+	path = submodules/LibPacSorter
+	url = git@github.com:ThatGarlicDude/LibPacSorter.git
