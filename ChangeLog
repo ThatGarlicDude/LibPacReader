@@ -1,3 +1,10 @@
+2025-05-22 GarlicDude <https://github.com/ThatGarlicDude>
+
+	LibPacReader Version 1.1.0
+	* LibPacReader is now capitalized in README.md and AUTHORS.
+	* LibPacReader now uses up to date versions of LibPacSet and LibPacSorter.
+	* Changed some function calls to accommodate the new versions of the submodules.
+
 2025-05-05 GarlicDude <https://github.com/ThatGarlicDude>
 
 	LibPacReader Version 1.0.0
