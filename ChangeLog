@@ -1,5 +1,11 @@
 2025-05-25 GarlicDude <https://github.com/ThatGarlicDude>
 
+	LibPacReader Version 1.2.1
+	* LibPacSorter is now up to date to its latest version.
+	* Fixed the LANGUAGES C requirement in CMakeLists.txt.
+
+2025-05-25 GarlicDude <https://github.com/ThatGarlicDude>
+
 	LibPacReader Version 1.2.0
 	* Added INSTALL.md!
 	* CMakeLists.txt is much cleaner than it was before.
