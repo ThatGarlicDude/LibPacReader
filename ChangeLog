@@ -1,3 +1,12 @@
+2025-05-25 GarlicDude <https://github.com/ThatGarlicDude>
+
+	LibPacReader Version 1.2.0
+	* Added INSTALL.md!
+	* CMakeLists.txt is much cleaner than it was before.
+	* LibPacReader now requires CMake version 3.18 or higher to make.
+	* LibPacReader now simply requires the C language to run.
+	* Forced C extensions to be turned on by default.
+
 2025-05-22 GarlicDude <https://github.com/ThatGarlicDude>
 
 	LibPacReader Version 1.1.0
