@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <dirent.h>
+#include "directoryGetter.h"
 #include "romSet.h"
 #include "romSetHandler.h"
 #include "romSorter.h"
 
 // Reads a directory, and returns a ROM set.
 RomSet readDirectory(char* directoryPath) {
-	DIR* directory = opendir(directoryPath);
+	char* cwd = getCurrentDirectory(directoryPath);
+	DIR* directory = opendir(cwd);
 	struct dirent* entry;
 	RomSet romSet = newROMSet();
 	// Append the ROM files into the array.

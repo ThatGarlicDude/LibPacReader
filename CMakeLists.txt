@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.18)
-project(pacreader VERSION 1.2.1 LANGUAGES C)
+project(pacreader VERSION 1.3.0 LANGUAGES C)
 
 # Set up specifications for the C compiler.
 set(CMAKE_C_STANDARD 99)
