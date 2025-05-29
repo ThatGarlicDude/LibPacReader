@@ -4,6 +4,6 @@
 #define DIRECTORY_GETTER_H
 
 	// Gets the current working directory.
-	char* getCurrentDirectory(char* directoryPath);
+	const char* getCurrentDirectory(const char* directoryPath);
 
 #endif

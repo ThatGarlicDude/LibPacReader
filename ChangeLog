@@ -1,5 +1,13 @@
 2025-05-28 GarlicDude <https://github.com/ThatGarlicDude>
 
+	LibPacReader Version 1.5.0
+	* Submodules are now up-to-date again. Yay.
+	* Added some failsafe stuff. That's cool.
+	* Filenames extracted from a directory are now duplicated, so they're probably safe from being overwritten.
+	* Please let this work, man.
+
+2025-05-28 GarlicDude <https://github.com/ThatGarlicDude>
+
 	LibPacReader Version 1.4.0
 	* Submodules are now up-to-date.
 

@@ -5,6 +5,6 @@
 #define DIRECTORY_READER_H
 
 	// Reads a directory, and returns a ROM set.
-	RomSet readDirectory(char* directoryPath);
+	RomSet readDirectory(const char* directoryPath);
 
 #endif
